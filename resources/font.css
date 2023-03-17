@@ -1,0 +1,30 @@
+@font-face {
+    font-family:"Akshar";
+    src: url(/resources/fonts/Akshar-Light.ttf) format('ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family:"Akshar";
+    src: url(/resources/fonts/Akshar-Regular.ttf) format('ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family:"Akshar";
+    src: url(/resources/fonts/Akshar-Medium.ttf) format('ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family:"Akshar";
+    src: url(/resources/fonts/Akshar-SemiBold.ttf) format('ttf');
+    font-weight: 600;
+}
+@font-face {
+    font-family:"Akshar";
+    src: url(/resources/fonts/Akshar-Bold.ttf) format('ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family:"Akshar";
+    src: url(/resources/fonts/Akshar-Light.ttf) format('ttf');
+    font-weight: 300;
+}

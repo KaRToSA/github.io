@@ -1,0 +1,573 @@
+ *{
+    transition: all 0.5s;
+ }
+ a:active, /* активная/посещенная ссылка */
+ a:hover,  /* при наведении */
+    a{
+  text-decoration: none;
+  color: #ffffff;
+}
+header{
+    width: 1920px;
+    height: 1020px;
+    background-image: url(images/imaged.jfif);
+}
+.injected-svg{
+    height: 230px;
+}
+.hd_logo{
+    position: absolute;
+    left: 340px;
+    top: 13px;
+
+}
+.nav_menu{
+    display: flex;
+    font-family: "Akshar",sans-serif;
+    font-weight: 700;
+    justify-content: space-between;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+.nav_bl{
+    margin: 0 auto;
+    width: 893px;
+    left: 50px;
+    padding-top: 112px;
+    padding-left: 266px;
+
+}
+
+
+
+  .underline {
+    position: relative;
+    text-decoration: none;
+    }
+    .underline:after {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0;
+    height: 3px;
+    background-color: rgb(253, 140, 3);
+    content: "";
+    transition: width 0.5s;
+    }
+    
+    .underline:hover:after {
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 3px;
+    background-color:  rgb(253, 140, 3);
+    content: "";
+    transition: width 0.5s;
+    }
+.container{
+    margin: 0 330px 
+}
+.box{
+    margin-top: 330px;
+}
+.desc_blocks{
+    display: flex;
+    margin-top: 51px;
+}
+.desc_imgs{
+    display: flex;
+}
+.desc_block{
+    margin-top: 124px;
+    font-family: "Akshar",sans-serif;
+    font-weight: 700;
+}
+.upHd{
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-family: 'Poppins';
+}
+.Hd{
+    font-size: 59px;
+    line-height: 53px;
+    font-family: 'Poppins';
+    font-weight: 900;
+}
+.subHd{
+    color: grey;
+    font-family: 'Poppins Medium';
+    font-weight: 100;
+    margin-top: 28px;
+    font-size: 14px;
+}
+.descHd{
+    font-family: monospace;
+    color: grey;
+}
+.Rick{
+    width: 404px;
+    height: 368px;
+    overflow: hidden;
+}
+
+.Morty img{
+    height: 500px;
+    overflow: hidden;
+}
+.ichd{
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins Medium';
+    font-weight: bolder;
+    font-size: 25px;
+}
+.line{
+    width: 80px;
+    margin: 0 auto;
+    border: 1px solid #fd8a00;
+    margin-top: 20px;
+}
+.icblock{
+    height: 50px;
+    width: 400px;
+    display: flex;
+    margin-top: 60px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.ic_hd{
+    font-family: monospace,sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.icblock img{
+    margin-right: 25px;
+}
+.ic_descr{
+    font-family: monospace;
+    color: grey;
+}
+.ic_blcs{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.carousel{
+    background-image: url(images/dark_bg.jfif);
+    height: 910px;
+    width: 1920px;
+}
+.crs_header{
+    font-family: "Akshar",sans-serif;
+    font-weight: 700;
+    color:#ffffff;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 34px;
+}
+.crs_sbheder{
+    color:#ffffff;
+    text-align: center;
+    margin-top: 10px;
+}
+.crs_btns{
+    display: flex;
+    color:#ffffff;
+    justify-content: center;
+
+}
+.crs_btn{
+    padding: 4px;
+    border: 1px solid grey;
+    padding-left: 31px;
+    padding-right: 29px;
+    margin-right: 29px;
+    height: 38px;
+    text-align: center;
+    margin-top: 38px;
+}
+.CAROUSEL{
+    margin-top: 30px;
+    
+}
+.carimg{
+    height: 500px;
+    width: 400px;
+    overflow: hidden;
+    
+}
+.carimg img{
+    height: 375px;
+    width: 375px;
+    border-radius: 10px;
+}
+.next {
+    width: 40px;
+    height: 40px;
+    border-top: 10px solid grey;
+    border-right: 10px solid grey;
+    margin-right: 60px;
+    transform: rotate(-135deg);
+    border-radius:10px
+}   
+.prev{
+    width: 40px;
+    height: 40px;
+    border-top: 10px solid grey;
+    border-right: 10px solid grey;
+    margin-right: 60px;
+    transform: rotate(45deg);
+    border-radius:10px
+}
+.arrows{
+    display: flex;
+    justify-content: space-between;
+    top: -335px;
+    position: relative;
+    width: 1500px;
+    left: -110px;
+}
+.cr_dsc{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -80px;
+}
+.cr_qs{
+    color:#ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.cr_btn{
+    width: 168px;
+    height: 43px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding-top: 11px;
+    font-weight: 700;
+    font-size: 13px;
+}
+.next:hover{
+    transition: all 0.5s;
+    width: 50px;
+    height: 50px;
+}
+.prev:hover{
+    transition: all 0.5s;
+    width: 50px;
+    height: 50px;
+}
+.bl_img img{
+    height: 500px;
+    width: 400px;
+    overflow: hidden;
+}
+.bl_header{
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins Medium';
+    font-weight: bolder;
+    font-size: 25px;
+}
+.bl_hd{
+    font-family: "Arial",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.by_author{
+    font-family:monospace sans-serif;
+    
+    font-size: 20px;
+    letter-spacing: 3px;
+    display: flex;
+}
+.orange{
+    color:#fd8a00;
+    margin-left: 5px;
+}
+.commets{
+    display: flex;
+    margin-right: 12px
+    
+}
+.com_count{
+    font-size: 20px;
+}
+.vis_count{
+    font-size: 20px;
+}
+.visitors{
+    display: flex;
+}
+.comimg img{
+    height: 30px;
+    width: 30px;
+    margin-right: 12px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.di{
+    display: flex;
+    justify-content: space-between;
+}
+.blog{
+    width: 400px;
+}
+.date{
+    padding: 5px;
+    background-color: #fd8a00;
+    border-radius:5px;
+}
+.btn_rmr{
+    width: 168px;
+    height: 43px;
+    border: 2px solid grey;
+    letter-spacing: 5px;
+    color: black;
+    
+    padding-top: 11px;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 5px
+}
+.btn_rmr:hover{
+font-size: 15px;
+}
+.blogs{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+  
+.hamb{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 20;
+    right: 315px;
+}
+.menu-btn {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	z-index:2;
+	overflow: hidden;
+}
+
+.menu-btn span {
+	width: 30px;
+	height: 2px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #ff0000;
+	transition: all 0.5s;
+}
+
+.menu-btn span:nth-of-type(2) {
+	top: calc(50% - 5px);
+}
+.menu-btn span:nth-of-type(3) {
+	top: calc(50% + 5px);
+}
+
+/* Меняем гамбургер иконку, когда меню открыто */
+.menu-btn.active span:nth-of-type(1) {
+  display: none;
+}
+.menu-btn.active span:nth-of-type(2) {
+  top: 50%;
+  transform: translate(-50%, 0%) rotate(45deg);  
+}
+.menu-btn.active span:nth-of-type(3) {
+  top: 50%;
+  transform: translate(-50%, 0%) rotate(-45deg); 
+}
+
+/* Меню, которое будет появляться */
+.menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 20%;
+	height: 100%;
+	padding: 15px;
+  background: #FFEFBA;
+	transform: translateX(-100%);
+	transition: transform 0.5s; 
+}
+
+.menu.active {
+	transform: translateX(0);
+}
+
+.menu li {
+	list-style-type: none;
+}
+
+.human_bg{
+    background-image: url(images/humans.jpg);
+    height: 518px;
+}
+.subhd_ft{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color:#ffffff;
+    padding-top: 225px;
+    margin-top: 30px;
+}
+.hd_ft{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Akshar",sans-serif;
+    font-weight: 900;
+    color:#ffffff;
+}
+.footer_bg{
+    display: flex;
+    justify-content: space-between;
+    background-color: #524c4c;
+    height: 365px;
+    padding-top: 30px;
+}
+.hd_inf_ft{
+    color:#ffbe6e;
+    text-transform: uppercase;
+    font-family: "Akshar",sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.dsc_inf_ft{
+    font-family: monospace;
+    color: grey;
+    line-height: 20px;
+}
+.info_ft{
+    width: 430px;
+    height: 265px;
+    border-right: 1px solid grey;
+}
+.info_ft .injected-svg{
+    position: relative;
+    right: 38px;
+    top: -32px;
+}
+
+.blck{
+    display: flex;
+}
+.links{
+    margin-left: 44px;
+    padding-right: 20px;
+    border-right: 1px solid grey;
+}
+.links .line{
+    color:#ffbe6e;
+    width: 40px;
+    margin-left: 0;
+    margin-top: -4px;
+}
+.lnks{
+    color:#ffffff;
+    text-transform: uppercase;
+    font-family: "Akshar",sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+
+}
+.linK{
+    color:grey;
+    text-transform: uppercase;
+    font-family: "Akshar",sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+.w_hd{
+    color:#ffffff;
+    text-transform: uppercase;
+    font-family: "Akshar",sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+.widget .line{
+    color:#ffbe6e;
+    width: 40px;
+    margin-left: 0;
+    margin-top: -4px;
+
+}
+.wdjet_info{
+    color:grey;
+
+    font-family: "Akshar",sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+.widget{
+    width: 299px;
+    padding-left: 38px;
+    border-right: 1px solid grey;
+}
+.phs img{
+    height: 80px;
+    
+}
+.photos .line{
+    color:#ffbe6e;
+    width: 40px;
+    margin-left: 0;
+    margin-top: -4px;
+}
+.photos{
+    padding-left: 20px;
+}
+.ph_hd{
+    color:#ffffff;
+    text-transform: uppercase;
+    font-family: "Akshar",sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+.phs{
+    display: flex;
+    margin-top: 10px;
+}
+
+
